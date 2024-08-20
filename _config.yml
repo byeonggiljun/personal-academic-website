@@ -1,5 +1,7 @@
 name: Byeonggil Jun
 description: Personal website
+url: https://byeonggil.github.io
+baseurl: /personal-academic-website
 menu:
  - page: About
    url: /personal-academic-website/about
@@ -50,5 +52,4 @@ menu_external:
 mathjax: false
 markdown: kramdown
 encoding: utf-8
-baseurl: personal-academic-website
 locale: en_GB

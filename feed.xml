@@ -6,7 +6,7 @@
 		<title>{{ site.name | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
 		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for page in site.pages %}
 			{% if page.title %}
 				<item>
@@ -20,8 +20,8 @@
 						<description>{{ page.content | strip_html | xml_escape }}</description>
 					{% endif %}
 					<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
-					<link>{{ site.url }}{{ page.url }}</link>
-					<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
+					<link>{{ site.url }}{{ site.baseurl }}{{ page.url }}</link>
+					<guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ page.url }}</guid>
 				</item>
 			{% endif %}
 		{% endfor %}
