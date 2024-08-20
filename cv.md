@@ -5,10 +5,10 @@ cv_title: Byeonggil Jun
 cv_subtitle: Computer Engineering Ph.D. student
 location: Tempe, AZ, USA
 phone: 
-contact_name: OleVik.net/Contact
-contact_link: http://olevik.net/contact
-linkedin_name: LinkedIn/OleHHVik
-linkedin_link: https://no.linkedin.com/in/olehhvik
+contact_name: byeonggil@asu.edu
+contact_link: byeonggil@asu.edu
+linkedin_name: LinkedIn/ByeonggilJun
+linkedin_link: https://www.linkedin.com/in/byeonggil-jun-165a84160/
 experience:
   - years: 2015-
     name: Research Assistant

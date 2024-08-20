@@ -1,17 +1,19 @@
-name: Researcher
+name: Byeonggil Jun
 description: Personal website
+url: https://byeonggiljun.github.io/personal-academic-website
+baseurl: #
 menu:
  - page: About
-   url: /about
+   url: /personal-academic-website/about
  - page: Papers
-   url: /papers
+   url: /personal-academic-website/papers
    links:
     - title: Working papers
       url: "#working-papers"
     - title: Published papers
       url: "#published-papers"
  - page: Research Projects
-   url: /research
+   url: /personal-academic-website/research
    links:
     - title: "Project One"
       url: "#project-one"
@@ -32,12 +34,12 @@ menu:
       url: "#positions"
     - title: Miscellaneous
       url: "#miscellaneous"
- - page: Teaching
-   url: /teaching
- - page: Media
-   url: /media
- - page: Accolades
-   url: /accolades
+#  - page: Teaching
+#    url: /teaching
+#  - page: Media
+#    url: /media
+#  - page: Accolades
+#    url: /accolades
 menu_external:
  - title: OleVik.me
    url: "http://olevik.me/"
