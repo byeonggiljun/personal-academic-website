@@ -22,7 +22,7 @@ menu:
     - title: "Project Four"
       url: "#project-four"
  - page: Curriculum Vitae
-   url: /cv
+   url: /personal-academic-website/cv
    links:
     - title: Experience
       url: "#experience"
